@@ -1,0 +1,23 @@
+
+<div class="container-fluid p-5" >
+  <p>{{lollero3}}€/kk</p>
+  <div class="row">
+    <div class="col-6">
+      <div class="slidecontainer">
+        <input type="range" class="slider" id="myRange" step="10" min="1000" max="5000" [(ngModel)]="lollero" (change)="onSlide()">
+        <p>{{lollero}}€</p>
+      </div>
+    </div>
+
+    <div class="col-6">
+      <select class="form-control"[(ngModel)]="lollero2" (change)="onSlide()">
+        <option value="12">12kk</option>
+        <option value="24">24kk</option>
+        <option value="36">36kk</option>
+      </select>
+
+    </div>
+  </div>
+
+</div>
+
