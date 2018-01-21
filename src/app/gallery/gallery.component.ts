@@ -9,11 +9,11 @@ export class GalleryComponent implements OnInit {
   slideIndex = 0;
   imgUrl = '';
   imgArray: string[] = [
-    '../../assets/2.jpg',
-    '../../assets/3.jpg',
-    '../../assets/4.jpg',
-    '../../assets/5.jpg',
-    '../../assets/6.jpg'
+    'https://github.com/jjvmak/webdemo/blob/master/src/assets/2.jpg',
+    'https://github.com/jjvmak/webdemo/blob/master/src/assets/3.jpg',
+    'https://github.com/jjvmak/webdemo/blob/master/src/assets/4.jpg',
+    'https://github.com/jjvmak/webdemo/blob/master/src/assets/5.jpg',
+    'https://github.com/jjvmak/webdemo/blob/master/src/assets/6.jpg'
   ];
   constructor() { }
 
