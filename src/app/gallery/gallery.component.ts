@@ -9,11 +9,11 @@ export class GalleryComponent implements OnInit {
   slideIndex = 0;
   imgUrl = '';
   imgArray: string[] = [
-    '../../assets/2.jpg',
-    '../../assets/3.jpg',
-    '../../assets/4.jpg',
-    '../../assets/5.jpg',
-    '../../assets/6.jpg'
+    'assets/2.jpg',
+    'assets/3.jpg',
+    'assets/4.jpg',
+    'assets/5.jpg',
+    'assets/6.jpg'
   ];
   constructor() { }
 
